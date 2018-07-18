@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+@import url("style.css");
+</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td><table class="menu">
+					<tr>
+						<th><form action="adverts" method="get">
+								<input type="submit" value="All adverts">
+							</form></th>
+					</tr>
+					<tr>
+						<th><form action="adverts">
+								Min price <input type="text" min="0" name="priceMin">
+								<p>
+									Max price <input type="text" min="0" name="priceMax">
+								<p>
+									<input type="submit" value="Car price..">
+							</form></th>
+					</tr>
+					<tr>
+						<th><form action="adverts">
+								<input type="text" name="brand"><input type="submit"
+									class="short" value="Car brand..">
+							</form></th>
+					</tr>
+					<tr>
+						<th><form action="adverts">
+								<input type="text" name="model"><input type="submit"
+									class="short" value="Car model..">
+							</form></th>
+					</tr>
+					<tr>
+						<th><form action="adverts">
+								<input type="text" name="year"><input type="submit"
+									class="short" value="Car year..">
+							</form></th>
+					</tr>
+				</table></td>
+			<td>
+				<form action="login" method="post">
+					<table class="login">
+						<tr>
+							<td>Login</td>
+							<td><input type="text" name="login" required="required"></td>
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td><input type="text" name="password" required="required"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Send"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><a href="registration.html">Click</a> to
+								registration</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
